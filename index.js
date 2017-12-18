@@ -1,7 +1,7 @@
 const Discord = require ('discord.js');
 const bot  = new Discord.Client();
 //const flip = require('flip-text')
-bot.login('MjcyNjI1NzgyMzg2NDU4NjI1.DNMzMA.F25TcluAAAclSBb9UyJcM6ECBO4');
+bot.login('TOKEN GOES HERE');
 // Set the prefix
  const prefix = "~";
 const FLIPBOTVER = " 0.17 ";
