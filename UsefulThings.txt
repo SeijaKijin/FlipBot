@@ -1,0 +1,25 @@
+ 
+Two commands that put out a fixed output that requires a tilde
+
+ bot.on("message", (message) => {
+    // Exit and stop if it's not there
+if (!message.content.startsWith(prefix)) return;
+    if (message.content.startsWith(prefix + "INPUT")) {
+      message.channel.send("OUTPUT");
+      } else
+      if (message.content.startsWith(prefix + "INPUT2")) {
+     message.channel.send("OUTPUT2"); } });
+
+    
+
+
+one command that puts out a fixxed output that does not require a tilde
+  bot.on ('message',(message) =>{
+   if(message.content == 'INPUT') {
+    message.reply('OUTPUT'); }});
+
+    //
+ bot.on ('message',(message) =>{
+  if (!message.content.startsWith(prefix)) return;
+  else (message.content == 'INPUT') {
+    message.reply('OUTPUT'); }});
